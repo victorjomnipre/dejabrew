@@ -15,17 +15,6 @@ class Controller
         }
 
         switch ($command) {
-            case 'about':
-			{
-                include('html/about_page.html');
-                break;
-			}
-            case 'products':
-                {
-                    include('html/coffee_products.php');
-                    break;
-                }
-
             case 'home':
             default:
 			{
